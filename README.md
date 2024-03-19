@@ -1,4 +1,4 @@
-# Healthcare_Provider_Fraud
+# Healthcare Provider Fraud
 Fraud detection with Graph Analytics: Leveraging network structure to increase predictive performance
 
 ## Problem Statement:
