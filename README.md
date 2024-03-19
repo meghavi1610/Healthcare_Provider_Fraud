@@ -1,21 +1,21 @@
 # Healthcare_Provider_Fraud
 Fraud detection with Graph Analytics: Leveraging network structure to increase predictive performance
 
-# Problem Statement:
+## Problem Statement:
 1. Identifying potentially fraudulent providers by analyzing their filed claims
 2. Determining key variables crucial for detecting suspicious behavior among providers
 
-# Common Fraudulent Problems:
+## Common Fraudulent Problems:
 There are four main types of fraud that are majorly present in the healthcare sector:
 1. Billing a service not actually provided
 2. Submitting multiple claims for the same service
 3. Misrepresenting the service provided
 4. Overcharging for a service beyond what was provided
 
-# Data Used:
+## Data Used:
 Inpatient claims, Outpatient claims and Beneficiary details of each provider
 
-# Modelling:
+## Modelling:
 Scenario 1 - Baseline: Information about claim and patient
 Scenario 2 - Baseline + Graph's Features: Degree of nodes representing provider as well as physicians, closeness centrality, eigenvector centrality and BiRank
 Scenario 3 - Baseline + Graph's Features + Modularity class community algorithm
@@ -25,7 +25,7 @@ Scenario 3 - Baseline + Graph's Features + Modularity class community algorithm
 
 We used random forest and gradient boosting - split the dataset into training and test dataset and look at the AUC score and see what performs the best.
 
-# Results:
+## Results:
 We see a significant increase when we use the graph features as compared to the baseline features. The AUC increases to around 0.92 from 0.68.
 
-# Similar fraud detection algorithms can be used in banks and financial instutions which are more nuanced as compared to just using the base features.
+## Similar fraud detection algorithms can be used in banks and financial instutions which are more nuanced as compared to just using the base features.
